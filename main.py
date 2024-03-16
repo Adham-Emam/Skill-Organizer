@@ -86,5 +86,6 @@ def update_skill(cr):
     new_progress = int(input("New skill progress: "))
     cr.execute(f"UPDATE skills SET progress = '{new_progress}' WHERE skill = '{skill}'")
 
-1
-main()
+
+if __name__ == '__main__':
+    main()
